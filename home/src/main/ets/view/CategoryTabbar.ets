@@ -15,6 +15,7 @@ export default struct CategoryTabBar {
 
   aboutToAppear() {
 
+
     let displayClass = display.getDefaultDisplaySync();
 
     this.displayWidth = px2vp(displayClass.width);
